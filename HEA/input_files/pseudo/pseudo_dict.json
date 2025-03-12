@@ -1,0 +1,472 @@
+{
+    "Ac": {
+        "pseudo": "Ac.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "48",
+        "ecutrho [Ry]": "328"
+    },
+    "Ag": {
+        "pseudo": "Ag.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "63",
+        "ecutrho [Ry]": "408"
+    },
+    "Al": {
+        "pseudo": "Al.pbe-nl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "29",
+        "ecutrho [Ry]": "121"
+    },
+    "Am": {
+        "pseudo": "Am.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "48",
+        "ecutrho [Ry]": "284"
+    },
+    "Ar": {
+        "pseudo": "Ar.pbe-nl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "46",
+        "ecutrho [Ry]": "189"
+    },
+    "As": {
+        "pseudo": "As.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "43",
+        "ecutrho [Ry]": "289"
+    },
+    "At": {
+        "pseudo": "At.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "50",
+        "ecutrho [Ry]": "471"
+    },
+    "Au": {
+        "pseudo": "Au.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "68",
+        "ecutrho [Ry]": "376"
+    },
+    "B": {
+        "pseudo": "B.pbe-n-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "43",
+        "ecutrho [Ry]": "325"
+    },
+    "Ba": {
+        "pseudo": "Ba.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "37",
+        "ecutrho [Ry]": "176"
+    },
+    "Be": {
+        "pseudo": "Be.pbe-sl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "70",
+        "ecutrho [Ry]": "710"
+    },
+    "Bi": {
+        "pseudo": "Bi.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "45",
+        "ecutrho [Ry]": "455"
+    },
+    "Br": {
+        "pseudo": "Br.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "56",
+        "ecutrho [Ry]": "289"
+    },
+    "C": {
+        "pseudo": "C.pbe-n-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "40",
+        "ecutrho [Ry]": "326"
+    },
+    "Ca": {
+        "pseudo": "Ca.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "45",
+        "ecutrho [Ry]": "274"
+    },
+    "Cd": {
+        "pseudo": "Cd.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "65",
+        "ecutrho [Ry]": "532"
+    },
+    "Ce": {
+        "pseudo": "Ce.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "37",
+        "ecutrho [Ry]": "179"
+    },
+    "Cl": {
+        "pseudo": "Cl.pbe-nl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "45",
+        "ecutrho [Ry]": "181"
+    },
+    "Co": {
+        "pseudo": "Co.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "74",
+        "ecutrho [Ry]": "473"
+    },
+    "Cr": {
+        "pseudo": "Cr.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "48",
+        "ecutrho [Ry]": "457"
+    },
+    "Cs": {
+        "pseudo": "Cs.pbe-spnl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "35",
+        "ecutrho [Ry]": "172"
+    },
+    "Cu": {
+        "pseudo": "Cu.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "71",
+        "ecutrho [Ry]": "328"
+    },
+    "Dy": {
+        "pseudo": "Dy.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "36",
+        "ecutrho [Ry]": "265"
+    },
+    "Er": {
+        "pseudo": "Er.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "37",
+        "ecutrho [Ry]": "265"
+    },
+    "Eu": {
+        "pseudo": "Eu.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "35",
+        "ecutrho [Ry]": "259"
+    },
+    "F": {
+        "pseudo": "F.pbe-n-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "49",
+        "ecutrho [Ry]": "316"
+    },
+    "Fe": {
+        "pseudo": "Fe.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "71",
+        "ecutrho [Ry]": "496"
+    },
+    "Fr": {
+        "pseudo": "Fr.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "63",
+        "ecutrho [Ry]": "506"
+    },
+    "Ga": {
+        "pseudo": "Ga.pbe-dnl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "43",
+        "ecutrho [Ry]": "240"
+    },
+    "Gd": {
+        "pseudo": "Gd.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "35",
+        "ecutrho [Ry]": "227"
+    },
+    "Ge": {
+        "pseudo": "Ge.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "42",
+        "ecutrho [Ry]": "239"
+    },
+    "H": {
+        "pseudo": "H.pbe-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "46",
+        "ecutrho [Ry]": "221"
+    },
+    "He": {
+        "pseudo": "He.pbe-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "46",
+        "ecutrho [Ry]": "203"
+    },
+    "Hf": {
+        "pseudo": "Hf.upf",
+        "ecutwfc [Ry]": "46",
+        "ecutrho [Ry]": "316"
+    },
+    "Hg": {
+        "pseudo": "Hg.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "75",
+        "ecutrho [Ry]": "424"
+    },
+    "Ho": {
+        "pseudo": "Ho.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "36",
+        "ecutrho [Ry]": "268"
+    },
+    "I": {
+        "pseudo": "I.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "69",
+        "ecutrho [Ry]": "278"
+    },
+    "In": {
+        "pseudo": "In.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "41",
+        "ecutrho [Ry]": "212"
+    },
+    "Ir": {
+        "pseudo": "Ir.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "64",
+        "ecutrho [Ry]": "446"
+    },
+    "K": {
+        "pseudo": "K.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "41",
+        "ecutrho [Ry]": "277"
+    },
+    "Kr": {
+        "pseudo": "Kr.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "63",
+        "ecutrho [Ry]": "307"
+    },
+    "La": {
+        "pseudo": "La.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "75",
+        "ecutrho [Ry]": "537"
+    },
+    "Li": {
+        "pseudo": "Li.pbe-sl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "50",
+        "ecutrho [Ry]": "325"
+    },
+    "Lu": {
+        "pseudo": "Lu.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "42",
+        "ecutrho [Ry]": "333"
+    },
+    "Mg": {
+        "pseudo": "Mg.pbe-spnl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "58",
+        "ecutrho [Ry]": "385"
+    },
+    "Mn": {
+        "pseudo": "Mn.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "57",
+        "ecutrho [Ry]": "702"
+    },
+    "Mo": {
+        "pseudo": "Mo.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "49",
+        "ecutrho [Ry]": "306"
+    },
+    "N": {
+        "pseudo": "N.pbe-n-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "44",
+        "ecutrho [Ry]": "320"
+    },
+    "Na": {
+        "pseudo": "Na.pbe-spnl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "66",
+        "ecutrho [Ry]": "323"
+    },
+    "Nb": {
+        "pseudo": "Nb.upf",
+        "ecutwfc [Ry]": "47",
+        "ecutrho [Ry]": "266"
+    },
+    "Nd": {
+        "pseudo": "Nd.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "38",
+        "ecutrho [Ry]": "202"
+    },
+    "Ne": {
+        "pseudo": "Ne.pbe-n-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "54",
+        "ecutrho [Ry]": "264"
+    },
+    "Ni": {
+        "pseudo": "Ni.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "75",
+        "ecutrho [Ry]": "476"
+    },
+    "Np": {
+        "pseudo": "Np.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "11",
+        "ecutrho [Ry]": "551"
+    },
+    "O": {
+        "pseudo": "O.pbe-nl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "43",
+        "ecutrho [Ry]": "316"
+    },
+    "Os": {
+        "pseudo": "Os.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "66",
+        "ecutrho [Ry]": "446"
+    },
+    "P": {
+        "pseudo": "P.pbe-nl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "34",
+        "ecutrho [Ry]": "138"
+    },
+    "Pa": {
+        "pseudo": "Pa.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "91",
+        "ecutrho [Ry]": "446"
+    },
+    "Pb": {
+        "pseudo": "Pb.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "46",
+        "ecutrho [Ry]": "211"
+    },
+    "Pd": {
+        "pseudo": "Pd.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "56",
+        "ecutrho [Ry]": "539"
+    },
+    "Pm": {
+        "pseudo": "Pm.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "34",
+        "ecutrho [Ry]": "198"
+    },
+    "Po": {
+        "pseudo": "Po.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "47",
+        "ecutrho [Ry]": "455"
+    },
+    "Pr": {
+        "pseudo": "Pr.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "41",
+        "ecutrho [Ry]": "309"
+    },
+    "Pt": {
+        "pseudo": "Pt.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "77",
+        "ecutrho [Ry]": "392"
+    },
+    "Pu": {
+        "pseudo": "Pu.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "45",
+        "ecutrho [Ry]": "351"
+    },
+    "Ra": {
+        "pseudo": "Ra.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "78",
+        "ecutrho [Ry]": "523"
+    },
+    "Rb": {
+        "pseudo": "Rb.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "35",
+        "ecutrho [Ry]": "259"
+    },
+    "Re": {
+        "pseudo": "Re.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "52",
+        "ecutrho [Ry]": "437"
+    },
+    "Rh": {
+        "pseudo": "Rh.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "53",
+        "ecutrho [Ry]": "361"
+    },
+    "Rn": {
+        "pseudo": "Rn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "49",
+        "ecutrho [Ry]": "213"
+    },
+    "Ru": {
+        "pseudo": "Ru.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "52",
+        "ecutrho [Ry]": "353"
+    },
+    "S": {
+        "pseudo": "S.pbe-nl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "39",
+        "ecutrho [Ry]": "157"
+    },
+    "Sb": {
+        "pseudo": "Sb.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "47",
+        "ecutrho [Ry]": "246"
+    },
+    "Sc": {
+        "pseudo": "Sc.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "50",
+        "ecutrho [Ry]": "402"
+    },
+    "Se": {
+        "pseudo": "Se.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "55",
+        "ecutrho [Ry]": "249"
+    },
+    "Si": {
+        "pseudo": "Si.pbe-nl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "44",
+        "ecutrho [Ry]": "175"
+    },
+    "Sm": {
+        "pseudo": "Sm.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "34",
+        "ecutrho [Ry]": "195"
+    },
+    "Sn": {
+        "pseudo": "Sn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "47",
+        "ecutrho [Ry]": "250"
+    },
+    "Sr": {
+        "pseudo": "Sr.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "39",
+        "ecutrho [Ry]": "262"
+    },
+    "Ta": {
+        "pseudo": "Ta.upf",
+        "ecutwfc [Ry]": "51",
+        "ecutrho [Ry]": "530"
+    },
+    "Tb": {
+        "pseudo": "Tb.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "35",
+        "ecutrho [Ry]": "229"
+    },
+    "Tc": {
+        "pseudo": "Tc.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "57",
+        "ecutrho [Ry]": "424"
+    },
+    "Te": {
+        "pseudo": "Te.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "82",
+        "ecutrho [Ry]": "327"
+    },
+    "Th": {
+        "pseudo": "Th.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "03",
+        "ecutrho [Ry]": "413"
+    },
+    "Ti": {
+        "pseudo": "Ti.upf",
+        "ecutwfc [Ry]": "52",
+        "ecutrho [Ry]": "575"
+    },
+    "Tm": {
+        "pseudo": "Tm.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "38",
+        "ecutrho [Ry]": "316"
+    },
+    "U": {
+        "pseudo": "U.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "93",
+        "ecutrho [Ry]": "683"
+    },
+    "V": {
+        "pseudo": "V.pbe-spnl-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "48",
+        "ecutrho [Ry]": "645"
+    },
+    "W": {
+        "pseudo": "W.pbe-spfn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "51",
+        "ecutrho [Ry]": "379"
+    },
+    "Xe": {
+        "pseudo": "Xe.pbe-dn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "45",
+        "ecutrho [Ry]": "212"
+    },
+    "Y": {
+        "pseudo": "Y.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "38",
+        "ecutrho [Ry]": "257"
+    },
+    "Yb": {
+        "pseudo": "Yb.pbe-spdn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "39",
+        "ecutrho [Ry]": "278"
+    },
+    "Zn": {
+        "pseudo": "Zn.pbe-spn-kjpaw_psl.1.0.0.UPF",
+        "ecutwfc [Ry]": "73",
+        "ecutrho [Ry]": "394"
+    },
+    "Zr": {
+        "pseudo": "Zr.upf",
+        "ecutwfc [Ry]": "46",
+        "ecutrho [Ry]": "267"
+    }
+}

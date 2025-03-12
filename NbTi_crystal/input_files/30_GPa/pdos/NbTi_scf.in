@@ -1,0 +1,40 @@
+&CONTROL
+  calculation = 'scf',
+  prefix = 'nbti',
+  pseudo_dir = '../../pseudo/',
+  tprnfor = .TRUE.,
+  tstress = .TRUE.,
+  verbosity = 'low',
+/
+&SYSTEM
+  degauss = 0.015,
+  ecutrho = 360.0,
+  ecutwfc = 90.0,
+  ibrav = 0,
+  nosym = .FALSE.,
+  occupations = 'smearing',
+  smearing = 'gauss',
+  nat = 2,
+  ntyp = 2,
+/
+&ELECTRONS
+  conv_thr = 1d-10,
+  electron_maxstep = 50,
+  mixing_beta = 0.7,
+/
+&IONS
+/
+&CELL
+/
+ATOMIC_SPECIES
+  Nb  92.9064 Nb.upf
+  Ti  47.8670 Ti.upf
+ATOMIC_POSITIONS crystal
+  Ti 0.500000000000 0.500000000000 0.500000000000
+  Nb 0.000000000000 0.000000000000 0.000000000000
+K_POINTS automatic
+  21 21 21 0 0 0
+CELL_PARAMETERS angstrom
+      3.0937599696      0.0000000000      0.0000000000
+      0.0000000000      3.0937599696      0.0000000000
+      0.0000000000      0.0000000000      3.0937599696

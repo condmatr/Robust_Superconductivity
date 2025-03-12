@@ -1,0 +1,7 @@
+&projwfc
+  prefix = 'hea'
+  outdir = './'
+  lsym = .TRUE.
+  filpdos = 'hea-pdos'
+
+/

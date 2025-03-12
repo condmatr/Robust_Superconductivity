@@ -1,0 +1,11 @@
+&input
+ flfrc='nb.888.fc',
+ asr='simple',
+ flfrq='nb.freq',
+ dos = .TRUE.,
+ degauss = 1.5,
+ nk1 = 60,
+ nk2 = 60,
+ nk3 = 60,
+/
+

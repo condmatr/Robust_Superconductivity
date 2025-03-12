@@ -1,0 +1,13 @@
+&inputph
+  reduce_io=.TRUE.,
+  fildvscf='dvscf',
+  search_sym=.FALSE.,
+  ldisp=.TRUE.,
+  tr2_ph=1d-16,
+  nmix_ph=16,
+  nq1=7,
+  nq2=7,
+  nq3=7,
+  prefix='nbti',
+  fildyn='nbti.dyn',
+ /

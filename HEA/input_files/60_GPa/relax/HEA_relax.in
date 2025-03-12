@@ -1,0 +1,71 @@
+&CONTROL
+  calculation = 'vc-relax',
+  etot_conv_thr = 2d-06,
+  forc_conv_thr = 2d-05,
+  outdir = './',
+  prefix = 'hea',
+  pseudo_dir = '../../pseudo/',
+  tprnfor = .TRUE.,
+  tstress = .TRUE.,
+  verbosity = 'low',
+/
+&SYSTEM
+  degauss = 0.015,
+  ecutrho = 340.0,
+  ecutwfc = 85.0,
+  ibrav = 0,
+  nosym = .FALSE.,
+  occupations = 'smearing',
+  smearing = 'gauss',
+  nat = 20,
+  ntyp = 5,
+/
+&ELECTRONS
+  conv_thr = 1d-10,
+  diago_david_ndim = 8,
+  electron_maxstep = 200,
+  mixing_beta = 0.7,
+  mixing_mode = 'local-TF',
+/
+&IONS
+  ion_dynamics = 'bfgs',
+  trust_radius_min = 1d-06,
+/
+&CELL
+  cell_dynamics = 'bfgs',
+  press = 600,
+  press_conv_thr = 0.1,
+/
+ATOMIC_SPECIES
+  Hf  178.4900 Hf.upf
+  Nb  92.9064 Nb.upf
+  Ta  180.9479 Ta.upf
+  Ti  47.8670 Ti.upf
+  Zr  91.2240 Zr.upf
+ATOMIC_POSITIONS crystal
+Hf            0.6023137499        0.6023165944        0.8983744211
+Hf            0.3959826181        0.3959865088        0.8446342856
+Zr            0.5992597436        0.5992572562        0.1492538905
+Zr            0.8058825594        0.8058783736        0.4594488936
+Ta            0.7984796049        0.7984781958        0.1959695515
+Ta            0.3976342371        0.3976342985        0.1038528876
+Ta            0.5992673183        0.5992641077        0.4019488794
+Ta            0.2051975695        0.2051931568        0.3027788527
+Ta            0.0010675878        0.0010655906        0.2510995661
+Ta           -0.0036313175       -0.0036284186        0.7504558372
+Ta            0.8039916879        0.8039939872        0.9496710960
+Ti            0.4027353895        0.4027350180        0.5964944016
+Ti            0.2000301528        0.2000308840        0.0488263778
+Nb            0.7951565875        0.7951612074        0.6959097764
+Nb            0.0041024964        0.0041036639        0.0026757694
+Nb           -0.0004072962       -0.0004096869        0.5007149728
+Nb            0.1959832695        0.1959868380        0.8009038146
+Nb            0.3987908890        0.3987877885        0.3479799424
+Nb            0.1999250429        0.1999250473        0.5511248547
+Nb            0.5982381098        0.5982395887        0.6478819291
+K_POINTS automatic
+  9 9 4 0 0 0
+CELL_PARAMETERS angstrom
+   6.682959701  -0.000961773  -3.574014508
+   5.261750011   4.120193239  -3.574020262
+  -0.019354920  -0.006647628  10.656046159

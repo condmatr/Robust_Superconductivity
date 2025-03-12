@@ -1,0 +1,12 @@
+&input
+ flfrc='hea.332.fc',
+ q_in_cryst_coord=.TRUE.,
+ asr='simple',
+ flfrq='hea.freq',
+ dos = .TRUE.,
+ degauss = 1.5,
+ nk1 = 36,
+ nk2 = 36,
+ nk3 = 24,
+/
+

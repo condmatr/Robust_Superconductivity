@@ -1,0 +1,7 @@
+&projwfc
+  prefix = 'nbti'
+  outdir = './'
+  lsym = .TRUE.
+  filpdos = 'nbti-pdos'
+
+/

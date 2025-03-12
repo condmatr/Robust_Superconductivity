@@ -1,0 +1,5 @@
+&PROJWFC
+  prefix= 'nbti',
+  outdir= './',
+  filpdos= 'nbti_pdos.dat'
+/

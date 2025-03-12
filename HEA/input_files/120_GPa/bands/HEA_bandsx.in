@@ -1,0 +1,5 @@
+&bands
+  prefix = 'hea'
+  outdir = './'
+  filband = 'HEA_band.dat'
+/

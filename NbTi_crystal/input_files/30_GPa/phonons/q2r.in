@@ -1,0 +1,5 @@
+&input
+ fildyn='nbti.dyn',
+ zasr='simple',
+ flfrc='nbti.666.fc',
+/

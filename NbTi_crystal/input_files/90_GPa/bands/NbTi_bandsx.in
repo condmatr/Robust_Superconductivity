@@ -1,0 +1,5 @@
+&bands
+  prefix = 'nbti'
+  outdir = './'
+  filband = 'NbTi_band.dat'
+/

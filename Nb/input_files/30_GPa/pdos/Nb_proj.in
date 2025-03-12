@@ -1,0 +1,5 @@
+&PROJWFC
+  prefix= 'nb',
+  outdir= './',
+  filpdos= 'nb_pdos.dat'
+/

@@ -1,0 +1,16 @@
+&inputph
+  reduce_io=.TRUE.,
+  fildvscf='dvscf',
+  search_sym=.FALSE.,
+  ldisp=.TRUE.,
+  tr2_ph=1d-16,
+  alpha_mix(1)=0.3,
+  alpha_mix(15)=0.1,
+  nmix_ph=16,
+  diagonalization='davidson',
+  nq1=3,
+  nq2=3,
+  nq3=2,
+  prefix='nbti',
+  fildyn='nbti.dyn',
+ /

@@ -1,0 +1,12 @@
+&inputph
+  reduce_io=.TRUE.,
+  fildvscf='dvscf',
+  search_sym=.TRUE.,
+  ldisp=.TRUE.,
+  tr2_ph=1d-16,
+  nq1=8,
+  nq2=8,
+  nq3=8,
+  prefix='nb',
+  fildyn='nb.dyn',
+ /

@@ -1,0 +1,60 @@
+&inputepw
+  outdir = './'
+  prefix = 'nbti'
+  elph = .TRUE.
+  epbwrite = .FALSE.
+  epbread = .FALSE.
+  epwwrite = .FALSE.
+  epwread = .TRUE.
+  nbndsub = 88
+  proj(1) = 'random'
+  proj(2) = 'Nb:d'
+  proj(3) = 'Ti:d'
+  bands_skipped = 'exclude_bands = 1-64'
+  wannierize = .FALSE.
+  num_iter = 2000
+  dis_froz_max = 23.2
+  dis_froz_min = 12
+  iverbosity = 0
+  elecselfen = .TRUE.
+  phonselfen = .TRUE.
+  fsthick = 1.2
+  temps = 0.075
+  nsmear = 9
+  delta_smear = 0.01
+  degaussw = 0.06
+  degaussq = 0.05
+  a2f = .TRUE.
+  dvscf_dir = '../phonons/save'
+
+  wdata(1) = 'bands_plot = .TRUE.'
+  wdata(2) = 'begin kpoint_path'
+  wdata(3) = 'C_2 -0.375 0.375 0.0 Y_2 -0.5 0.5 0.0'
+  wdata(4) = 'Y_2 -0.5 0.5 0.0 GAMMA 0.0 0.0 0.0'
+  wdata(5) = 'GAMMA 0.0 0.0 0.0 M_2 -0.5 0.5 0.5'
+  wdata(6) = 'M_2 -0.5 0.5 0.5 D -0.375 0.625 0.5'
+  wdata(7) = 'D -0.375 0.625 0.5 L_2 0.0 0.5 0.5'
+  wdata(8) = 'L_2 0.0 0.5 0.5 V_2 0.0 0.5 0.0'
+  wdata(9) = 'V_2 0.0 0.5 0.0 GAMMA 0.0 0.0 0.0'
+  wdata(10) = 'GAMMA 0.0 0.0 0.0 A 0.0 0.0 0.5'
+  wdata(11) = 'end kpoint_path'
+  wdata(12) = 'bands_plot_format = gnuplot xmgrace'
+  wdata(13) = 'precond = .TRUE.'
+  wdata(14) = 'use_ws_distance = .TRUE.'
+  wdata(15) = 'dis_num_iter = 200'
+  wdata(16) = 'conv_window = 5'
+  wdata(17) = 'kmesh_tol = 0.00001'
+
+  nk1 = 6
+  nk2 = 6
+  nk3 = 4
+  nq1 = 3
+  nq2 = 3
+  nq3 = 2
+  nkf1 = 24
+  nkf2 = 24
+  nkf3 = 16
+  nqf1 = 24
+  nqf2 = 24
+  nqf3 = 16
+/

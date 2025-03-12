@@ -1,0 +1,5 @@
+&input
+ fildyn='hea.dyn',
+ zasr='simple',
+ flfrc='hea.332.fc',
+/

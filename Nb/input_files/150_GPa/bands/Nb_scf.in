@@ -1,0 +1,39 @@
+&CONTROL
+  calculation = 'scf',
+  prefix = 'nb',
+  pseudo_dir = '../../pseudo/',
+  tprnfor = .TRUE.,
+  tstress = .TRUE.,
+  verbosity = 'low',
+/
+&SYSTEM
+  degauss = 0.015,
+  ecutrho = 340,
+  ecutwfc = 85.0,
+  ibrav = 0,
+  nosym = .FALSE.,
+  occupations = 'smearing',
+  smearing = 'gauss',
+  nat = 1,
+  ntyp = 1,
+/
+&ELECTRONS
+  conv_thr = 1d-10,
+  diagonalization = 'davidson',
+  electron_maxstep = 40,
+  mixing_beta = 0.7,
+/
+&IONS
+/
+&CELL
+/
+ATOMIC_SPECIES
+  Nb  92.9064 Nb.upf
+ATOMIC_POSITIONS crystal
+  Nb 0.000000000000 0.000000000000 0.000000000000
+K_POINTS automatic
+  24 24 24 0 0 0
+CELL_PARAMETERS angstrom
+      1.4414166560      1.4414166560      1.4414166560
+      1.4414166560     -1.4414166560     -1.4414166560
+     -1.4414166560      1.4414166560     -1.4414166560

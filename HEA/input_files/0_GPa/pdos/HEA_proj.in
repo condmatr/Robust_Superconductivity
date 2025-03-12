@@ -1,0 +1,6 @@
+&projwfc
+  prefix = 'hea'
+  outdir = './'
+  filpdos = 'hea-pdos.dat'
+
+/

@@ -1,0 +1,56 @@
+&inputepw
+  outdir = './'
+  prefix = 'nb'
+  elph = .TRUE.
+  epbwrite = .FALSE.
+  epbread = .FALSE.
+  epwwrite = .FALSE.
+  epwread = .TRUE.
+  nbndsub = 7
+  wannierize = .FALSE.
+  num_iter = 10000
+  wannier_plot = .TRUE.
+  proj(1) = 'random'
+  proj(2) = 'Nb:s;d'
+  dis_froz_min = 17
+  dis_froz_max = 30
+  iverbosity = 0
+  elecselfen = .TRUE.
+  phonselfen = .TRUE.
+  efermi_read =	.TRUE.
+  fermi_energy = 23.2144
+  fsthick = 0.8
+  nsmear = 9
+  delta_smear =	0.02
+  temps = 0.075
+  degaussw = 0.02
+  degaussq = 0.10
+  a2f = .TRUE.
+  dvscf_dir = '../phonons/save'
+
+  wdata(1) = 'bands_plot = .TRUE.'
+  wdata(2) = 'begin kpoint_path'
+  wdata(3) = 'GAMMA 0.0 0.0 0.0 H 0.5 -0.5 0.5'
+  wdata(4) = 'H 0.5 -0.5 0.5 N 0.0 0.0 0.5'
+  wdata(5) = 'N 0.0 0.0 0.5 GAMMA 0.0 0.0 0.0'
+  wdata(6) = 'GAMMA 0.0 0.0 0.0 P 0.25 0.25 0.25'
+  wdata(7) = 'P 0.25 0.25 0.25 H 0.5 -0.5 0.5'
+  wdata(8) = 'end kpoint_path'
+  wdata(9) = 'bands_plot_format = gnuplot xmgrace'
+  wdata(10) = 'use_ws_distance = .TRUE.'
+  wdata(11) = 'dis_num_iter = 200'
+  wdata(13) = 'conv_window = 5'
+
+  nk1 = 8
+  nk2 = 8
+  nk3 = 8
+  nq1 = 8
+  nq2 = 8
+  nq3 = 8
+  nkf1 = 90
+  nkf2 = 90
+  nkf3 = 90
+  nqf1 = 30
+  nqf2 = 30
+  nqf3 = 30
+/

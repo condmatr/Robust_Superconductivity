@@ -1,0 +1,6 @@
+&input
+ fildyn='nb.dyn',
+ zasr='simple',
+ flfrc='nb.888.fc',
+/
+

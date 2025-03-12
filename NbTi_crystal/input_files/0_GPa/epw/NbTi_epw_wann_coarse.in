@@ -1,0 +1,58 @@
+&inputepw
+  outdir = './'
+  prefix = 'nbti'
+  elph = .TRUE.
+  epbwrite = .FALSE.
+  epbread = .FALSE.
+  epwwrite = .TRUE.
+  epwread = .FALSE.
+  nbndsub = 12
+  wannierize = .TRUE.
+  num_iter = 20000
+  bands_skipped = 'exclude_bands = 1:6'
+  proj(1) = 'Ti:d'
+  proj(2) = 'Nb:d'
+  proj(3) = 'f=0.75,0.00,0.50:s'
+  proj(4) = 'f=0.25,0.50,0.00:s'
+  wannier_plot = .TRUE.
+  dis_froz_min = 9
+  dis_froz_max = 21.5
+  iverbosity = 0
+  elecselfen = .TRUE.
+  phonselfen = .TRUE.
+  fsthick = 1
+  temps = 0.075
+  degaussw = 0.05
+  degaussq = 0.05
+  a2f = .TRUE.
+  dvscf_dir = '../phonons/save'
+
+  wdata(1) = 'bands_plot = .TRUE.'
+  wdata(2) = 'begin kpoint_path'
+  wdata(3) = 'GAMMA 0.0 0.0 0.0 X 0.0 0.5 0.0'
+  wdata(4) = 'X 0.0 0.5 0.0 M 0.5 0.5 0.0'
+  wdata(5) = 'M 0.5 0.5 0.0 GAMMA 0.0 0.0 0.0'
+  wdata(6) = 'GAMMA 0.0 0.0 0.0 R 0.5 0.5 0.5'
+  wdata(7) = 'R 0.5 0.5 0.5 X 0.0 0.5 0.0'
+  wdata(8) = 'end kpoint_path'
+  wdata(9) = 'bands_plot_format = gnuplot xmgrace'
+  wdata(10) = 'use_ws_distance = .TRUE.'
+  wdata(11) = 'dis_num_iter = 200'
+  wdata(12) = 'conv_window = 5'
+  wdata(13) = 'guiding_centres = .TRUE.'
+  wdata(14) = 'dis_mix_ratio = 0.5'
+  wdata(15) = 'precond = .TRUE.'
+
+  nk1 = 7
+  nk2 = 7
+  nk3 = 7
+  nq1 = 7
+  nq2 = 7
+  nq3 = 7
+  nkf1 = 21
+  nkf2 = 21
+  nkf3 = 21
+  nqf1 = 7
+  nqf2 = 7
+  nqf3 = 7
+/
