@@ -4,7 +4,7 @@ Input files and data provided for "Unraveling the Robust Superconductivity Pheno
 
 In each system directory ("Nb", "NbTi_crystal", "NbTi_SQS", "HEA") has a folder for calculation inputs ("input_files") at 6 pressures (0,30,60,90,120,150 GPa). 
 
-Also in each system directory is a single <code>data.h5</code> file, which contains the electronic band structure and density of states, phonon dispersion and phonon density of states, and the Eliashberg spectral function for each pressure studied. An example showing how to interact with this file using h5py is provide in "interface_example.ipynb". 
+Also in each system directory is a single <code>data.h5</code> file, which contains the electronic band structure and density of states, phonon dispersion and phonon density of states, and the Eliashberg spectral function for each pressure studied. An example showing how to interact with this file using h5py is provide in <code>interface_example.ipynb</code>. 
 
 File structure of <code>data.h5</code>
 ```
